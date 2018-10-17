@@ -1,7 +1,8 @@
 class ApplicationController
   
-  get '/' do 
+  gets '/' do 
     erb :index
+  end
   
 
 end
