@@ -11,6 +11,7 @@ class ApplicationController < Sinatra::Base
   
   get '/signup' do 
     erb :create_users
+  end
   
 
 end
