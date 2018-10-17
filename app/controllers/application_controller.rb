@@ -1,5 +1,5 @@
 require './config/environment'
-class ApplicationController
+class ApplicationController < Sinatra::Base
   
   get '/' do 
     erb :index
