@@ -1,7 +1,7 @@
 require './config/environment'
 class ApplicationController
   
-  gets '/' do 
+  get '/' do 
     erb :index
   end
   
